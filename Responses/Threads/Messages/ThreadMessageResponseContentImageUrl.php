@@ -11,7 +11,7 @@ use OpenAI\Testing\Responses\Concerns\Fakeable;
 /**
  * @implements ResponseContract<array{file_id: string, detail?: string}>
  */
-final class ThreadMessageResponseContentImageFile implements ResponseContract
+final class ThreadMessageResponseContentImageUrl implements ResponseContract
 {
     /**
      * @use ArrayAccessible<array{file_id: string, detail?: string}>

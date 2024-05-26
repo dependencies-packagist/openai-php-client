@@ -2,24 +2,27 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Threads\Runs;
+namespace OpenAI\Responses\Threads\Messages;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Responses\Concerns\ArrayAccessible;
 use OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
- * @implements ResponseContract<array{type: string}>
+ * @implements ResponseContract<array{type: 'code_interpreter'}>
  */
-final class ThreadRunResponseToolRetrieval implements ResponseContract
+final class ThreadMessageResponseAttachmentCodeInterpreterTool implements ResponseContract
 {
     /**
-     * @use ArrayAccessible<array{type: string}>
+     * @use ArrayAccessible<array{type: 'code_interpreter'}>
      */
     use ArrayAccessible;
 
     use Fakeable;
 
+    /**
+     * @param  'code_interpreter'  $type
+     */
     private function __construct(
         public string $type,
     ) {
@@ -28,7 +31,7 @@ final class ThreadRunResponseToolRetrieval implements ResponseContract
     /**
      * Acts as static factory, and returns a new Response instance.
      *
-     * @param  array{type: 'retrieval'}  $attributes
+     * @param  array{type: 'code_interpreter'}  $attributes
      */
     public static function from(array $attributes): self
     {
