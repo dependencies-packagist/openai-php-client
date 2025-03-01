@@ -1,0 +1,4 @@
+[submodule "openai"]
+	path = openai
+	url = git@github.com:openai-php/client.git
+	branch = main
