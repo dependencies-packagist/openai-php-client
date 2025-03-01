@@ -36,10 +36,10 @@
     },
     "autoload": {
         "psr-4": {
-            "OpenAI\\": "openai/src/"
+            "OpenAI\\": "src/"
         },
         "files": [
-            "openai/src/OpenAI.php"
+            "src/OpenAI.php"
         ]
     },
     "extra": {
