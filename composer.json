@@ -1,10 +1,18 @@
 {
-    "name": "openai/openai-php-client",
+    "name": "open-ai/openai-php-client",
     "description": "This is a community-driven, unofficial PHP SDK designed to simplify integration with the OpenAI API.",
     "keywords": [
         "OpenAI",
         "openai sdk",
-        "openai-php-client"
+        "openai-php-client",
+        "codex",
+        "GPT-3",
+        "DALL-E",
+        "api",
+        "client",
+        "natural",
+        "language",
+        "processing"
     ],
     "type": "metapackage",
     "license": "MIT",
@@ -17,6 +25,7 @@
     ],
     "abandoned": "openai-php/client",
     "require": {
+        "php": "^8.1.0",
         "nyholm/psr7": "^1.8",
         "openai-php/client": "^0.10.3",
         "symfony/http-client": "^6.4"

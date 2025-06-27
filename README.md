@@ -26,7 +26,7 @@ This is a community-driven, unofficial PHP SDK designed to simplify integration 
 You can install the package via [Composer]:
 
 ```bash
-composer require openai/openai-php-client
+composer require open-ai/openai-php-client
 ```
 
 <p align="right">[<a href="#readme-top">back to top</a>]</p>
@@ -41,17 +41,17 @@ Distributed under the MIT License (MIT). Please see [License File] for more info
 
 [GitHub Tag]: https://img.shields.io/github/v/tag/dependencies-packagist/openai-php-client
 
-[Total Downloads]: https://img.shields.io/packagist/dt/openai/openai-php-client?style=flat-square
+[Total Downloads]: https://img.shields.io/packagist/dt/open-ai/openai-php-client?style=flat-square
 
-[Packagist Version]: https://img.shields.io/packagist/v/openai/openai-php-client
+[Packagist Version]: https://img.shields.io/packagist/v/open-ai/openai-php-client
 
-[Packagist PHP Version Support]: https://img.shields.io/packagist/php-v/openai/openai-php-client
+[Packagist PHP Version Support]: https://img.shields.io/packagist/php-v/open-ai/openai-php-client
 
 [Packagist License]: https://img.shields.io/github/license/dependencies-packagist/openai-php-client
 
 [GitHub Tag URL]: https://github.com/dependencies-packagist/openai-php-client/tagsv
 
-[Packagist URL]: https://packagist.org/packages/openai/openai-php-client
+[Packagist URL]: https://packagist.org/packages/open-ai/openai-php-client
 
 [Repository URL]: https://github.com/dependencies-packagist/openai-php-client
 
